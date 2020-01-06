@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>WeatherAPI</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="grid-container">
+      <section class="picture">
+        <h1>What's The Weather?</h1>
+        <h5>Find out what's the weather like, condition, humidity and etc.</h5>
+      </section>
+      <section class="input">
+        <form>
+          <h5>Please enter the name of the city</h5>
+          <input type="text" class="search" placeholder="London, Berlin etc.">
+          <a href="#" class="btn">Get Weather</a>
+        </form>
+      </section>
+      <section class="result">
+        <div class="loader-wrapper">
+          <div id="loader">
+            <img class="img-loader" src="spinner-loader.svg" alt="">
+          </div>
+        </div>
+        <div id="output" class="btn-anim"></div>
+      </section>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="weatherinfo.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
